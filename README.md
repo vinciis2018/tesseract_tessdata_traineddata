@@ -1,10 +1,34 @@
-COMMAND:
-find /opt/homebrew -type d -name tessdata 2>/dev/null
-
+COMMAND:<br>
+find /opt/homebrew -type d -name tessdata 2>/dev/null <br>
+\n
 RESULT:
 /opt/homebrew/Cellar/tesseract/5.5.1/share/tessdata
 /opt/homebrew/share/tessdata
 
+COMMAND:
+ls /opt/homebrew/Cellar/tesseract/5.5.1/share/tessdata
+RESULT:
+configs			osd.traineddata		snum.traineddata
+eng.traineddata		pdf.ttf			tessconfigs
+
+COMMAND:
+ls /opt/homebrew/Cellar/tesseract/5.5.1/share/tessdata/configs
+RESULT:
+alto			inter			pdf
+ambigs.train		kannada			quiet
+api_config		linebox			rebox
+bigram			logfile			strokewidth
+box.train		lstm.train		tsv
+box.train.stderr	lstmbox			txt
+digits			lstmdebug		unlv
+get.images		makebox			wordstrbox
+hocr			page
+
+COMMAND:
+ls /opt/homebrew/Cellar/tesseract/5.5.1/share/tessdata/tessconfigs
+RESULT:
+batch		matdemo		nobatch
+batch.nochop	msdemo		segdemo
 
 COMMAD:
 ls /opt/homebrew/share/tessdata
@@ -97,6 +121,6 @@ batch		matdemo		nobatch
 batch.nochop	msdemo		segdemo
 
 COMMAND:
-kishanvinciis@192 ~ % ls /opt/homebrew/share/tessdata/script 
+ls /opt/homebrew/share/tessdata/script 
 RESULT:
 /opt/homebrew/share/tessdata/script
