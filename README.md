@@ -1,6 +1,6 @@
-COMMAND:
-find /opt/homebrew -type d -name tessdata 2>/dev/null
-
+COMMAND:\n
+find /opt/homebrew -type d -name tessdata 2>/dev/null \n
+\n
 RESULT:
 /opt/homebrew/Cellar/tesseract/5.5.1/share/tessdata
 /opt/homebrew/share/tessdata
