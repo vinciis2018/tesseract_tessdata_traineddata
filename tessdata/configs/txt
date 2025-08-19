@@ -1,1 +1,3 @@
-../../../Cellar/tesseract/5.5.1/share/tessdata/configs/txt
+# This config file should be used with other config files which create renderers.
+# usage example: tesseract eurotext.tif eurotext txt hocr pdf
+tessedit_create_txt 1

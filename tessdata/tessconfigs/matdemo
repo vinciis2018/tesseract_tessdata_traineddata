@@ -1,1 +1,7 @@
-../../../Cellar/tesseract/5.5.1/share/tessdata/tessconfigs/matdemo
+#################################################
+# Adaptive Matcher Using PreAdapted Templates
+#################################################
+
+classify_enable_adaptive_debugger   1
+matcher_debug_flags         6
+matcher_debug_level       1

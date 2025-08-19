@@ -1,1 +1,2 @@
-../../../Cellar/tesseract/5.5.1/share/tessdata/configs/unlv
+tessedit_write_unlv 1
+unlv_tilde_crunching T

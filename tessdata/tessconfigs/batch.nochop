@@ -1,1 +1,2 @@
-../../../Cellar/tesseract/5.5.1/share/tessdata/tessconfigs/batch.nochop
+chop_enable 0
+wordrec_enable_assoc 0

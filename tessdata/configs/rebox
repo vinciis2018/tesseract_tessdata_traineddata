@@ -1,1 +1,2 @@
-../../../Cellar/tesseract/5.5.1/share/tessdata/configs/rebox
+tessedit_resegment_from_boxes 1
+tessedit_make_boxes_from_boxes 1
