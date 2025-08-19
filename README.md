@@ -121,6 +121,6 @@ batch		matdemo		nobatch
 batch.nochop	msdemo		segdemo
 
 COMMAND:
-kishanvinciis@192 ~ % ls /opt/homebrew/share/tessdata/script 
+ls /opt/homebrew/share/tessdata/script 
 RESULT:
 /opt/homebrew/share/tessdata/script
